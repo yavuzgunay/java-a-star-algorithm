@@ -281,7 +281,7 @@ public class HomeForm extends JFrame implements ActionListener {
     public HomeForm() {
 
         //displayAllTreeNode();
-        setTitle("A Star Search Algorithm - Yavuz GUNAY");
+        setTitle("A Star Search Algorithm");
         setSize(800, 650);
         headerPanel.setSize(600,50);
         MainPanel.setSize(800,650);
@@ -291,7 +291,6 @@ public class HomeForm extends JFrame implements ActionListener {
         setLocationRelativeTo(null);
         setResizable(false);
         getRootPane().setWindowDecorationStyle(JRootPane.FRAME);
-        setUndecorated(true);
         add(MainPanel);
         nodeCB.addItem(new AnyObject("Select Node", "0").value);
         AddTreeNode();
